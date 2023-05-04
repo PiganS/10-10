@@ -94,12 +94,16 @@ a {
 /* ================================HADER================================ */
 .header {
 }
-
+.header .container {
+  display: flex;
+}
 .header-logo {
 }
 .header-nav {
+  margin-left: auto;
 }
 .header-list {
+  display: flex;
 }
 
 .header-item {
